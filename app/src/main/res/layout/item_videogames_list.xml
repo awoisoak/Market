@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="225dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/white"
+    android:contextClickable="true"
+    android:elevation="50dp">
+
+
+    <TextView
+        android:id="@+id/item_videogames_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_videogames_image"
+        app:layout_constraintVertical_bias="0.25" tools:text="666"/>
+    <ImageView
+        android:id="@+id/item_videogames_likes_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="0dp" android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_like"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_videogames_image"
+        app:layout_constraintVertical_bias="1.0"
+    />
+    <ImageView
+        android:id="@+id/item_videogames_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/item_videogames_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0"/>
+    <TextView
+        android:id="@+id/item_videogames_likes_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_videogames_likes_button"
+        app:layout_constraintTop_toBottomOf="@+id/item_videogames_image"
+        app:layout_constraintVertical_bias="0.24000001"
+        tools:text="666"/>
+    <ImageView
+        android:id="@+id/item_videogames_comments_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/icon_comment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_videogames_likes_numbers"
+        app:layout_constraintTop_toBottomOf="@+id/item_videogames_image"
+        app:layout_constraintVertical_bias="0.7"/>
+    <TextView
+        android:id="@+id/item_videogames_comments_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_videogames_comments_button"
+        app:layout_constraintTop_toBottomOf="@+id/item_videogames_image"
+        app:layout_constraintVertical_bias="0.25" tools:text="12"/>
+    <TextView
+        android:id="@+id/item_videogames_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" tools:text="The product"/>
+    <ImageView
+        android:id="@+id/item_videogames_sold_out"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/badge_soldout" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>

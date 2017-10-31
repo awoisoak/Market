@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Market</string>
+    <string name="cameras">Cameras</string>
+    <string name="clothes">Clothes</string>
+    <string name="videogames">Videogames</string>
+    <string name="no_products_found">No products were found</string>
+    <string name="loading_products">Loading products…</string>
+    <string name="error_network_connection">couldn\'t connect to the server</string>
+    <string name="ok">OK</string>
+    <string name="prod_flavor_not_implemented">PRODUCTION flavor is not implemented, please build
+        the MOCK flavor and run the app again (see README.MD for more information)
+    </string>
+    <string name="market">Market</string>
+    <string name="sell">Sell</string>
+    <string name="sell_feature_not_implemented">Sell feature not implemented</string>
+    <string name="likes_feature_not_implemented">Likes feature not implemented</string>
+    <string name="comments_feature_not_implemented">Comments feature not implemented</string>
+</resources>
