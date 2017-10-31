@@ -17,5 +17,5 @@ Note that,  only the mock build is implemented as this app doesn't have access t
 MVP was applied to all fragments in parallel which, in this case as it is a simple test, some code is duplicated but it allows easy scalability if behaviours/style change in the future 
 
 A responsive UI has been added for 7 inches tablets (600dp width)
-![Screenshot phone](http://awoisoak.com/public/android/market1.png)
-![Screenshot tablet 7'](http://awoisoak.com/public/android/market2.png)
+![Screenshot phone](http://awoisoak.com/public/android/market_app_1.png)
+![Screenshot tablet 7'](http://awoisoak.com/public/android/market_app_2.png)
