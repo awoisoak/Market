@@ -6,7 +6,7 @@
 - [ButterKnife](http://jakewharton.github.io/butterknife/) is used to find the corresponding views
 - [Glide](https://github.com/bumptech/glide) is used for image processing
 - [RxJava](https://github.com/ReactiveX/RxJava) & [RxAndroid](https://github.com/ReactiveX/RxAndroid) are used between the presenters and its interactor
-- An RxBus pattern implemented with [RxRelay](https://github.com/JakeWharton/RxRelay)(to avoid the Observable to finish if there is an error) to decouple Interactors/UseCases from Presenters
+- An RxBus pattern implemented with [RxRelay] (https://github.com/JakeWharton/RxRelay)(to avoid the Observable to finish if there is an error) to decouple Interactors/UseCases from Presenters
 
 
 

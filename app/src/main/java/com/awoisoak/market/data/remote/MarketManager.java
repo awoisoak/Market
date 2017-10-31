@@ -1,11 +1,14 @@
 package com.awoisoak.market.data.remote;
 
+import com.awoisoak.market.data.remote.impl.responses.MarketResponse;
+
 import io.reactivex.Observable;
+import io.reactivex.ObservableEmitter;
 
 
 /**
  * Class to attack to the real Market API
- * The implementation of this class is not included on this test
+ * TODO The implementation of this class is not included
  */
 
 
@@ -22,7 +25,8 @@ public class MarketManager implements MarketApi {
 
     @Override
     public Observable request(String category, int offset) {
-        //TODO
-        return null;
+        //empty Observable
+        return Observable.create((ObservableEmitter<MarketResponse> emitter) ->{});
+
     }
 }
